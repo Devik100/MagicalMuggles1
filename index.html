@@ -1,34 +1,52 @@
 <html>
-<head>
-    <title>Magic school</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Magic school</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="style.css">
-</head>
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
-        <ul>
-            <li id="Welc">Welcome to this magic school</li>
-            <li id="C">Campus</li>
-            <li id="A">Achievments</li>
-            <li id="W">What's New</li>
-            <li id="L">Alumni</li>
-            <li id="O">Contact</li>
-        </ul>
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+              <a class="navbar-brand" href="#">Devik Jha</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul>
+                    <li id="Welc">Welcome to this magic school</li>
+                    <li href="C">Campus</li>
+                    <li href="A">Achievments</li>
+                    <li href="W">What's New</li>
+                    <li href="L">Alumni</li>
+                    <li href="O">Contact</li>
+                </ul>
+            </div>
+        
+        </nav>
+        
         <div class="Announcment">
             <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">Ask questions at our site</marquee>
         </div>
-        <iframe id="vid" src="https://www.youtube.com/embed/9Frow8HMh74"></iframe>
+        <img src="https://www.freepnglogos.com/uploads/hogwarts-logo-png/hogwarts-logo-black-white-10.png" id="vid">
         <section id="O">
+            <div class="ToHalfSide"></div>
+            <h2>Contact Us</h2>
+            <br>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.499101153757!2d-122.40365218468163!3d37.80177697975466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581cd937d0587%3A0x8894786d394e811f!2sWhitehat%20Education%20Technology%20Pte%20Ltd!5e0!3m2!1sen!2sus!4v1626792539552!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
     </body>
 </html>
-collo

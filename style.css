@@ -1,7 +1,19 @@
 li{
     font-size:medium;
+    color: darksalmon;
+    text-align: left;
+}
+.ToHalfSide{
+    text-align: left;
 }
 #Welc{
-    color:darkorange;
+    color:darkseagreen;
     font-size:larger;
+}
+body{
+    text-align:center;
+}
+#vid{
+    width:1000;
+    height:1000;
 }
